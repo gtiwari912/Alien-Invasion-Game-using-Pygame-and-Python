@@ -105,19 +105,19 @@ def inceptionLvlKaFunction():
                 score += 1
                 # Below codes will Give Comments according to ur score in Console
                 if score == 10:
-                    print(f'{score}: Ek Enemy ship Badh Gaya hai')
+                    print(f'{score}: One Enemy has been increased')
                 if score == 20:
-                    print(f'{score}: Ek aur badh gaya, bhai Sambhal Ke')
+                    print(f'{score}: Carefully brother!! One more enemy has been increased')
                 if score == 30:
-                    print(f'{score}: Bus Bhai aise hi mast Khel Raha hai')
+                    print(f'{score}: Playing Well Brother!! Just keep going like this...')
                 if score == 50:
-                    print(f'{score}: Arre Yaar!!! Tu to half Century Bana Diya')
+                    print(f'{score}: Congrats!!! You made a Half Century')
                 if score == 70:
-                    print(f'{score}: Bus Bhai! Aur Kitna Score Banayege')
+                    print(f'{score}: Now Stop it Brother, till when you will keep playing it.')
                 if score == 85:
-                    print(f'{score}: Are Bus Kar! Game ka ab To Code Bhi khatam ho raha hai')
+                    print(f'{score}: Stop it Brother!! Now my game is running out of Codes')
                 if score == 100:
-                    print(f'{score}: Tu nhi maanega!! Zindagi bhar yahi khel...Game infinty loop kr diya Hu...kbhi khatam nhi hoga')
+                    print(f'{score}: You wont listen to me!! Keep playing it Lifetime!!! The game is in Infinity Loop, it wont end!!!!')
                 if ((score != 0) and (score % 10 ==0)):
                     enemyIncLoop()
 
